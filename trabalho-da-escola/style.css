@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Shadows+Into+Light&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+    background-image: linear-gradient(to right,#beb6f1,#6664a9);
+}
+
+h1,h2 {
+    font-family: "Merriweather", serif;
+    color: #34318a;
+}
+
+section {
+    background-color: aliceblue;
+    display: flex;
+    padding: 3em;
+    margin: 1em;
+    border-radius: 2rem;
+}
+
+#foto {
+    padding: 2em;
+    border-radius: 3rem;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+    margin-top: 30vh;
+}
+
+#links  {
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+}
+
+#links-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;  
+}
+
+a {
+    color: black;
+}
+
+button {
+    /*Deixa o texto em maiusculo*/
+    text-transform: uppercase;
+    /*Deixa o texto em negrito*/
+    font-weight: bolder;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 9px #bab8e0;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #aba0ce
+}
+
+button:active {
+    background-color: #a295c7;
+    box-shadow: 0 5px #6a5992;
+    transform: translateY(4px);
+ }
